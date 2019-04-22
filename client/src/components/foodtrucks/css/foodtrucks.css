@@ -1,0 +1,68 @@
+
+/* Display */
+.foodtrucks-display{
+  display:flex;
+  width:1000px;
+  background-color: rgb(240, 235, 235);
+  justify-content: center;
+}
+
+/* Header */
+.foodtrucks-header{
+  display:flex;
+  width: 100%;
+  background-color: rgb(42, 41, 41);
+  height:50px;
+  
+  justify-content: flex-start;
+}
+.foodtrucks-header a{
+  background-color: rgb(82, 66, 66);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+
+/* Dashboard */
+.foodtrucks-dashboard{
+  width:100%;
+  padding: 0 50px;
+  height: 800px;
+  overflow-y: auto;
+}
+
+/* Truck Card */
+.foodtrucks-truck{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  border: 2px solid gray;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+}
+.foodtrucks-truck-textbox{
+  text-align:left;
+  margin-left:60px;
+  margin-right:auto;
+}
+
+.foodtrucks-truck img{
+  height:100px;
+}
+
+.foodtrucks-truck button{
+  margin-right: 20px;
+}
+
+/* New Truck */
+.foodtrucks-newtruck .input-group{
+  margin:20px;
+}
+
+/* EditTruck */
+.edittruck-header{
+  display:flex;
+  justify-content: space-around;
+}
